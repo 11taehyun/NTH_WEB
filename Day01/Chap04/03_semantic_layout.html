@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Layout</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        header {
+            background-color: black;
+            height: 80px;
+        }
+        nav {}
+        nav a {
+            text-decoration: none;
+            color: white;
+            float: left;
+            display: block;
+            width: 100px;
+            height: 100%;
+            padding: 10px 20px;
+            line-height: 60px;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: cornflowerblue;
+        }
+
+        section {
+            margin: 0 auto;
+            width: 1024px;
+            background-color: lightblue;
+            border: 1px solid black;
+            padding: 10px;
+            min-height: 200px;
+        }
+
+        footer {
+            background-color: lightgray;
+            line-height: 80px;
+        }
+
+        footer .copy {
+            float: left;
+            line-height: 80px;
+            padding: 0 20px;
+        }
+
+        footer .family {
+            float: right;
+            line-height: 80px;
+            min-width: 120px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="http://www.naver.com">네이버</a>
+            <a href="http://www.kakao.com">카카오</a>
+            <a href="http://www.youtube.com">유튜브</a>
+        </nav>
+    </header>
+    <section>
+        <h1>My Page</h1>
+        <p>My Page 에 오신걸 환영합니다~!</p>
+    </section>
+    <section>
+        <h1>2번째 섹션</h1>
+        <p>2번째 영역 입니다~!</p>
+        <article>
+            이상 사람은 얼마나 청춘을 있는 생생하며, 되려니와, 행복스럽고 가치를 때문이다. 사랑의 커다란 미인을 청춘의 어디 약동하다. 방황하였으며, 행복스럽고 이것을 반짝이는 무한한 돋고, 철환하였는가? 천하를 시들어 내는 발휘하기 천자만홍이 하는 사라지지 쓸쓸하랴? 이것은 못할 그러므로 풀이 무엇을 부패뿐이다. 노년에게서 그들은 인류의 꽃이 쓸쓸하랴? 뜨고, 용감하고 그들은 거선의 것은 역사를 사막이다. 열락의 할지니, 때에, 든 귀는 품으며, 유소년에게서 사막이다. 때에, 심장의 황금시대를 길지 이상을 풍부하게 일월과 공자는 붙잡아 아니다. 그들에게 만물은 얼마나 밥을 힘있다.
+        </article>
+    </section>
+    <section>
+        <h1>3번째 섹션</h1>
+        <p>3번째 영역 입니다~!</p>
+    </section>
+    <footer>
+        <p class="copy">Copyright ⓒ ALOHA CLASS. ALL Rights Reserved</p>
+        <p class="family">
+            <select name="family">
+                <option value="1">네이버</option>
+                <option value="2">카카오</option>
+                <option value="3">유튜브</option>
+            </select>
+        </p>
+    </footer>
+</body>
+</html>
